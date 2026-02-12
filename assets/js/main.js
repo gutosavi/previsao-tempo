@@ -42,6 +42,14 @@ function showInfos(json) {
     );
 
   document.querySelector("#temp-description").innerHTML = `${json.description}`;
+
+  document.querySelector("#temp-max").innerHTML = `${json.tempMax.toFixed(1)}`;
+
+  document.querySelector("#temp-min").innerHTML = `${json.tempMin.toFixed(1)}`;
+
+  document.querySelector("#humidity").innerHTML = `${json.humidity}%`;
+
+  document.querySelector("#wind").innerHTML = `${json.windSpeed} Km/h`;
 }
 
 function showError(msg) {
