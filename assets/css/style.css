@@ -57,7 +57,7 @@ form#search input:focus-visible {
 }
 
 #weather {
-  /* display: none; */
+  display: none;
   margin-top: 20px;
 }
 
@@ -150,4 +150,9 @@ div#other-infos {
 #wind {
   font-weight: 400;
   color: var(--colorText);
+}
+
+#error {
+  font-size: 12px;
+  color: red;
 }
