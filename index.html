@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1f07ec24b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="container">
+      <form id="search">
+        <i class="fa-solid fa-location-dot"></i>
+        <input
+          type="text"
+          name="nameCity"
+          id="cityName"
+          placeholder="Buscar cidade"
+        />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div id="weather">
+        <h1 id="title">Sananduva, RS</h1>
+
+        <div id="infos">
+          <div id="temp">
+            <img
+              id="temp-img"
+              src="http://openweathermap.org/img/wn/04d@2x.png"
+              alt=""
+            />
+            <div>
+              <p id="temp-value">30 <sup>C°</sup></p>
+              <p id="temp-description">Ensolarado</p>
+            </div>
+          </div>
+          <div id="other-infos">
+            <div class="info">
+              <i
+                id="temp-max-icon"
+                class="fa-solid fa-temperature-arrow-up"
+              ></i>
+              <div>
+                <h2>Temp. Max.</h2>
+                <p id="temp-max">30 <sup>C°</sup></p>
+              </div>
+            </div>
+            <div class="info">
+              <i
+                id="temp-min-icon"
+                class="fa-solid fa-temperature-arrow-down"
+              ></i>
+              <div>
+                <h2>Temp. Min.</h2>
+                <p id="temp-min">20 <sup>C°</sup></p>
+              </div>
+            </div>
+            <div class="info">
+              <i id="humidity-icon" class="fa-solid fa-droplet"></i>
+              <div>
+                <h2>Umidade</h2>
+                <p id="humidity">50%</p>
+              </div>
+            </div>
+            <div class="info">
+              <i id="wind-icon" class="fa-solid fa-wind"></i>
+              <div>
+                <h2>Vento</h2>
+                <p id="wind">50 km/h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
