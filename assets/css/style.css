@@ -119,6 +119,7 @@ div#other-infos {
 #other-infos .info h2 {
   font-size: 13px;
   font-weight: 800;
+  color: var(--colorText);
 }
 
 #other-infos .info i {
@@ -148,4 +149,5 @@ div#other-infos {
 #humidity,
 #wind {
   font-weight: 400;
+  color: var(--colorText);
 }
