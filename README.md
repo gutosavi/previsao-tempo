@@ -89,7 +89,9 @@ Aqui o foco foi entender profundamente:
 
 ## Preview
 
-![Preview do Projeto](./assets/img/previsao-do-tempo.gif)
+<p align="center">
+  <img src="./assets/img/previsao-do-tempo.gif" width="600"/>
+</p>
 
 ---
 
